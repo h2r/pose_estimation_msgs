@@ -1,6 +1,7 @@
-sensor_msgs/Image image
+sensor_msgs/Image rgb
 sensor_msgs/Image depth
 sensor_msgs/CameraInfo info
 string query
 ---
+bool detected
 geometry_msgs/PoseStamped pose

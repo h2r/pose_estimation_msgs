@@ -58,7 +58,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  DetectObjectPose.srv
+  EstimatePose.srv
 )
 
 ## Generate actions in the 'action' folder
