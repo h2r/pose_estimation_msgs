@@ -1,7 +1,8 @@
 sensor_msgs/Image rgb
 sensor_msgs/Image depth
 sensor_msgs/CameraInfo info
-string query
+string object_name
 ---
 bool object_found
 geometry_msgs/PoseStamped pose
+float confidence
