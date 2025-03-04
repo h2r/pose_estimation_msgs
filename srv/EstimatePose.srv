@@ -5,4 +5,4 @@ string object_name
 ---
 bool object_found
 geometry_msgs/PoseStamped pose
-float confidence
+float64 confidence
