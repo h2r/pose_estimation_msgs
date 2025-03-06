@@ -1,0 +1,6 @@
+# Apply object detection for the given text queries in the given image
+sensor_msgs/Image image
+string[] text_queries
+---
+# (x,y) pixels of detections (corresponding to text_queries)
+geometry_msgs/Point[] pixels
